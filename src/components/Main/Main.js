@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
 import Details from '../Details/Details';
+import Education from '../Education/Education';
 import NavbarCustom from '../NavbarCustom/NavbarCustom';
 
 const Main = () => {
@@ -9,6 +10,7 @@ const Main = () => {
             <Banner></Banner>
             <NavbarCustom></NavbarCustom>
             <Details></Details>
+            <Education></Education>
         </div>
     );
 };
