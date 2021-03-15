@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import Details from '../Details/Details';
 import Education from '../Education/Education';
 import NavbarCustom from '../NavbarCustom/NavbarCustom';
+import Skill from '../Skill/Skill';
 
 const Main = () => {
     return (
@@ -11,6 +12,7 @@ const Main = () => {
             <NavbarCustom></NavbarCustom>
             <Details></Details>
             <Education></Education>
+            <Skill></Skill>
         </div>
     );
 };

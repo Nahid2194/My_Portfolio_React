@@ -29,7 +29,7 @@ const Details = () => {
                             technologies such as HTML5,CSS,Bootstrap,Javascript,React.js,Ajax,Fetch Api and Proficient understanding of code version control tool Git
                             and Database system MySQL,Oracle,SQLite.</p>
                             <p>I wish i could be a great software engineer.Once Upon a time i wanted to be a Cricketer.Unfortunately i didn't be a Professional Cricketer.Basically I'm a bowling all-rounder.I have played in many large hall Tournament.And i love to play Cricket.</p>
-                            <a href="https://drive.google.com/file/d/1WvrGrgOV3J5ViFoyFhaRtixxhNR_CsZC/view?fbclid=IwAR0jHJdDghm5q_rVaxX9z4-WCF1FDnXoQwP-zarqUhUogypIStK61YPblHc" ><Button size="large" variant="contained" color="primary">
+                            <a target="_blank" href="https://drive.google.com/file/d/1WvrGrgOV3J5ViFoyFhaRtixxhNR_CsZC/view?fbclid=IwAR0jHJdDghm5q_rVaxX9z4-WCF1FDnXoQwP-zarqUhUogypIStK61YPblHc" ><Button size="large" variant="contained" color="primary">
                                 Download Resume <AssignmentReturnedIcon />
                             </Button></a>
                             <div className="row" style={{ paddingTop: "5%", paddingBottom: "5%" }}>
