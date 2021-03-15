@@ -9,8 +9,8 @@ const Skill = () => {
                 <h6>C Program</h6> <Progress percent={90} status="active" />
                 <h6>Python</h6> <Progress percent={80} status="active" />
                 <h6>Java</h6><Progress percent={70} status="active" />
-                <h6>Django</h6> <Progress percent={90} status="active" />
-                <h6>JavaScript</h6> <Progress percent={80} status="active" />
+                <h6>Django</h6> <Progress percent={80} status="active" />
+                <h6>JavaScript</h6> <Progress percent={90} status="active" />
                 <h6>React</h6> <Progress percent={80} status="active" />
                 <h6>Android</h6><Progress percent={50} status="active" />
                 <h6>Oracle</h6><Progress percent={80} status="active" />

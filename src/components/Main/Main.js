@@ -9,7 +9,6 @@ const Main = () => {
     return (
         <div>
             <Banner></Banner>
-            <NavbarCustom></NavbarCustom>
             <Details></Details>
             <Education></Education>
             <Skill></Skill>
