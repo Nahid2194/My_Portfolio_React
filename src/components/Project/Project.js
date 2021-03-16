@@ -5,6 +5,7 @@ import Elearning from '../images/ela.png';
 import Video from '../images/videostream.png';
 import Github from '../images/project1.jpg';
 import Shopping from '../images/project2.jpg';
+import restaurant from '../images/restaurent.png';
 const Project = () => {
     const Data = [
         {
@@ -36,6 +37,12 @@ const Project = () => {
             name: 'Shopping Cart_JavaScript',
             image: Shopping,
             Url: 'https://nahid2194.github.io/Shopping-Cart_JavaScript/',
+        },
+        {
+
+            name: 'Restaurent Website React',
+            image: restaurant,
+            Url: 'https://restaurent-react.netlify.app/',
         }
     ];
     return (
