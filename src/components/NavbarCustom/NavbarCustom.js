@@ -21,7 +21,7 @@ const NavbarCustom = () => {
                     <Nav className="m-auto">
                         <Nav.Link href=""><Link className="navLink" style={{ color: "white" }} to="/">Home</Link></Nav.Link>
                         <Nav.Link href=""><Link className="navLink" style={{ color: "white" }} to="/resume">Resume</Link></Nav.Link>
-                        <Nav.Link href=""><Link className="navLink" style={{ color: "white" }} to="/protfollio">Protfolio</Link></Nav.Link>
+                        <Nav.Link href=""><Link className="navLink" style={{ color: "white" }} to="/portfolio">Protfolio</Link></Nav.Link>
                         <Nav.Link href=""><Link className="navLink" style={{ color: "white" }} to="/contact">Contact</Link></Nav.Link>
 
                     </Nav>

@@ -2,6 +2,7 @@ import emailjs from "emailjs-com";
 import React from 'react';
 
 const Contact = () => {
+
     function sendEmail(e) {
         e.preventDefault();
 
@@ -14,6 +15,7 @@ const Contact = () => {
         e.target.reset();
     }
     return (
+
         <div className="contact">
             <div className="container">
                 <div >
