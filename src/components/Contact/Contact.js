@@ -1,8 +1,5 @@
 import emailjs from "emailjs-com";
 import React from 'react';
-import { GoLocation } from 'react-icons/go';
-import { FiPhoneCall } from 'react-icons/fi';
-import { BiMailSend } from 'react-icons/bi';
 
 const Contact = () => {
     function sendEmail(e) {
