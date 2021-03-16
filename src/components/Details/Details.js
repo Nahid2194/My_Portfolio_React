@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebookF, faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Hero1 from '../images/hero1.png';
 import { Button } from '@material-ui/core';
 import AssignmentReturnedIcon from '@material-ui/icons/AssignmentReturned';
@@ -32,27 +34,26 @@ const Details = () => {
                             <a target="_blank" href="https://drive.google.com/file/d/1WvrGrgOV3J5ViFoyFhaRtixxhNR_CsZC/view?fbclid=IwAR0jHJdDghm5q_rVaxX9z4-WCF1FDnXoQwP-zarqUhUogypIStK61YPblHc" ><Button size="large" variant="contained" color="primary">
                                 Download Resume <AssignmentReturnedIcon />
                             </Button></a>
-                            <div className="row" style={{ paddingTop: "5%", paddingBottom: "5%" }}>
-                                <div className="col text-left pb-3">
+                            <br />
+                            <div className="row">
+                                <div className="col pt-4 pb-3">
                                     <div className="circle-footer">
-                                        <a target="_blank" href="https://www.facebook.com/Nahid2194"><FaFacebookF /></a>
-                                    </div>
-                                    <div className="circle-footer">
-                                        <a target="_blank" href="https://www.instagram.com/nahid_jc/"> <FaInstagram className="nav-icon icon" /></a>
-                                    </div>
-                                    <div className="circle-footer">
-                                        <a target="_blank" href="https://github.com/Nahid2194"><FaGithub className="fab fa-github" /></a>
-                                    </div>
+                                        <a target='_blank' href="https://www.facebook.com/Nahid2194"> <FontAwesomeIcon icon={faFacebookF} /></a>
 
+                                    </div>
                                     <div className="circle-footer">
+                                        <a target='_blank' href="https://www.instagram.com/nahid_jc/"> <FontAwesomeIcon icon={faLinkedin} /></a>
 
-                                        <a target="_blank" href="https://www.linkedin.com/in/nahid-hasan-785717169/"><FaLinkedinIn className="fab fa-linkedin" /></a>
+                                    </div>
+                                    <div className="circle-footer">
+                                        <a target='_blank' href="https://github.com/Nahid2194"> <FontAwesomeIcon icon={faGithub} /></a>
+
+                                    </div>
+                                    <div className="circle-footer">
+                                        <a target='_blank' href="https://www.linkedin.com/in/nahid-hasan-785717169/"><FontAwesomeIcon icon={faInstagram} /></a>
+
                                     </div>
                                 </div>
-
-
-
-
                             </div>
                         </div>
                         <div className="col-md-4">

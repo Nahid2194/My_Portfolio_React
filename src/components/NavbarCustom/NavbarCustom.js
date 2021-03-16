@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 const NavbarCustom = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" variant="dark" className="navbar">
-                <Navbar.Brand >
+            <Navbar collapseOnSelect expand="lg" variant="dark" className="navbar ">
+                <Navbar.Brand  >
                     <Link to="/">
 
-                        <h3 className="logo" style={{ fontFamily: "Shrikhand, cursive", color: "white", textDecoration: "none" }}>Nahid.</h3>
+                        <h3 className="logo" style={{ fontFamily: "Shrikhand, cursive", color: "white", textDecoration: "none" }}>Nahid Hasan</h3>
                     </Link>
 
                 </Navbar.Brand>
@@ -18,11 +18,11 @@ const NavbarCustom = () => {
                     <Nav className="mr-auto">
 
                     </Nav>
-                    <Nav>
+                    <Nav className="m-auto">
                         <Nav.Link href=""><Link className="navLink" style={{ color: "white" }} to="/">Home</Link></Nav.Link>
                         <Nav.Link href=""><Link className="navLink" style={{ color: "white" }} to="/resume">Resume</Link></Nav.Link>
                         <Nav.Link href=""><Link className="navLink" style={{ color: "white" }} to="/protfollio">Protfolio</Link></Nav.Link>
-                        <Nav.Link href=""><Link className="navLink" style={{ color: "white" }} to="/contact">Content</Link></Nav.Link>
+                        <Nav.Link href=""><Link className="navLink" style={{ color: "white" }} to="/contact">Contact</Link></Nav.Link>
 
                     </Nav>
                 </Navbar.Collapse>
