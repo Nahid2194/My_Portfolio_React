@@ -12,7 +12,6 @@ const Resume = () => {
             <Project></Project>
             <Skill></Skill>
             <Contact></Contact>
-            <Footer></Footer>
         </div>
     );
 };

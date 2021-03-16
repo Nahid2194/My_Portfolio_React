@@ -18,7 +18,6 @@ const Main = () => {
             <Project></Project>
             <Galary></Galary>
             <Contact></Contact>
-            <Footer></Footer>
         </div>
     );
 };
