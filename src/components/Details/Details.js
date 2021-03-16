@@ -17,10 +17,10 @@ const Details = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-8">
-                            <h2 className="for-font">Hi There!</h2>
+                            <h2 className="font">Hi There!</h2>
                             <h1 className="for-font">This is Nahid Hasan</h1>
                             <Typical
-                                steps={['Student', 1000, 'Full Stack Developer!', 1000, 'Engineer!', 1000, 'Cricketer!', 1000]}
+                                steps={['Student', 2000, 'Full Stack Developer!', 2000, 'Engineer!', 2000, 'Cricketer!', 2000]}
                                 loop={Infinity}
                                 wrapper="h3"
                             />
@@ -42,7 +42,7 @@ const Details = () => {
 
                                     </div>
                                     <div className="circle-footer">
-                                        <a target='_blank' href="https://www.instagram.com/nahid_jc/"> <FontAwesomeIcon icon={faLinkedin} /></a>
+                                        <a target='_blank' href="https://www.instagram.com/nahid_jc/"> <FontAwesomeIcon icon={faInstagram} /></a>
 
                                     </div>
                                     <div className="circle-footer">
@@ -50,7 +50,7 @@ const Details = () => {
 
                                     </div>
                                     <div className="circle-footer">
-                                        <a target='_blank' href="https://www.linkedin.com/in/nahid-hasan-785717169/"><FontAwesomeIcon icon={faInstagram} /></a>
+                                        <a target='_blank' href="https://www.linkedin.com/in/nahid-hasan-785717169/"><FontAwesomeIcon icon={faLinkedin} /></a>
 
                                     </div>
                                 </div>

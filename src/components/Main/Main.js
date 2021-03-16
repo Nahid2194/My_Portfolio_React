@@ -7,6 +7,7 @@ import Galary from '../Galary/Galary';
 import NavbarCustom from '../NavbarCustom/NavbarCustom';
 import Skill from '../Skill/Skill';
 import '../Banner/Banner.css';
+import Contact from '../Contact/Contact';
 const Main = () => {
     return (
         <div>
@@ -15,6 +16,7 @@ const Main = () => {
             <Education></Education>
             <Skill></Skill>
             <Galary></Galary>
+            <Contact></Contact>
             <Footer></Footer>
         </div>
     );
