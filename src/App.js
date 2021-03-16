@@ -7,12 +7,14 @@ import Skill from './components/Skill/Skill';
 import Education from './components/Education/Education';
 import Details from './components/Details/Details';
 import NavbarCustom from './components/NavbarCustom/NavbarCustom';
+import Resume from './components/Resume/Resume';
 function App() {
   return (
     <>
       <BrowserRouter>
         <NavbarCustom />
         <Route path="/" exact component={Main} />
+        <Route path="/resume" component={Resume} />
       </BrowserRouter>
 
 

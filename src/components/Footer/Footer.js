@@ -1,4 +1,5 @@
 import React from 'react';
+import Typical from 'react-typical';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 const Footer = () => {
@@ -9,9 +10,11 @@ const Footer = () => {
                     <div className="container">
                         <div className="row py-5">
                             <div className="col text-center text-white">
-                                <em>“Work hard in silence, let your success be your noise”</em>
-                                <p>Frank Ocean
-                        </p>
+
+                                <em >
+                                    “Whoever ascribes to me what I have not said then let him occupy his seat in Hell-fire! ”
+                                </em>
+                                <p>Sahih al-Bukhari </p>
                             </div>
                         </div>
                         <div className="row">
