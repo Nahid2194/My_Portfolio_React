@@ -19,7 +19,7 @@ const Details = () => {
                             <h2 className="font">Hi There!</h2>
                             <h1 className="for-font">This is Nahid Hasan</h1>
                             <Typical
-                                steps={['Student', 2000, 'Full Stack Developer!', 2000, 'Engineer!', 2000, 'Cricketer!', 2000]}
+                                steps={['Programmer', 2000, 'Full Stack Developer!', 2000, 'Engineer!', 2000, 'Cricketer!', 2000]}
                                 loop={Infinity}
                                 wrapper="h3"
                             />
