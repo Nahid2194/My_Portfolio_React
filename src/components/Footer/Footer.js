@@ -27,11 +27,11 @@ const Footer = () => {
 
                                 </div>
                                 <div className="circle-footer">
-                                    <a href="https://github.com/Nahid2194"> <FontAwesomeIcon icon={faGithub} /></a>
+                                    <a href="https://github.com/Nahidjc"> <FontAwesomeIcon icon={faGithub} /></a>
 
                                 </div>
                                 <div className="circle-footer">
-                                    <a href="https://www.linkedin.com/in/nahid-hasan-785717169/"><FontAwesomeIcon icon={faInstagram} /></a>
+                                    <a href="https://www.linkedin.com/in/nahidjc"><FontAwesomeIcon icon={faInstagram} /></a>
 
                                 </div>
                             </div>

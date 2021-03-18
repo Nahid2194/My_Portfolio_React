@@ -45,11 +45,11 @@ const Details = () => {
 
                                     </div>
                                     <div className="circle-footer">
-                                        <a target='_blank' href="https://github.com/Nahid2194"> <FontAwesomeIcon icon={faGithub} /></a>
+                                        <a target='_blank' href="https://github.com/Nahidjc"> <FontAwesomeIcon icon={faGithub} /></a>
 
                                     </div>
                                     <div className="circle-footer">
-                                        <a target='_blank' href="https://www.linkedin.com/in/nahid-hasan-785717169/"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                        <a target='_blank' href="https://www.linkedin.com/in/nahidjc/"><FontAwesomeIcon icon={faLinkedin} /></a>
 
                                     </div>
                                 </div>
