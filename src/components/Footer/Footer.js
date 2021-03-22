@@ -23,7 +23,7 @@ const Footer = () => {
 
                                 </div>
                                 <div className="circle-footer">
-                                    <a href="https://www.instagram.com/nahid_jc/"> <FontAwesomeIcon icon={faLinkedin} /></a>
+                                    <a href="https://www.linkedin.com/in/nahidjc"> <FontAwesomeIcon icon={faLinkedin} /></a>
 
                                 </div>
                                 <div className="circle-footer">
@@ -31,7 +31,7 @@ const Footer = () => {
 
                                 </div>
                                 <div className="circle-footer">
-                                    <a href="https://drive.google.com/drive/u/0/folders/1-c5Y4yVeE-lIrw4eRbpHrFWYhTjuOU0g"><FontAwesomeIcon icon={faInstagram} /></a>
+                                    <a href="https://www.instagram.com/nahid_jc/"><FontAwesomeIcon icon={faInstagram} /></a>
 
                                 </div>
                             </div>
