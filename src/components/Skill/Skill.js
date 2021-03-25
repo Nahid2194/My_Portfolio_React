@@ -4,7 +4,7 @@ import 'antd/dist/antd.css';
 const Skill = () => {
     return (
         <div>
-            <h1>Nahid Hasan's Work History</h1>
+            <h1 className="container">Nahid Hasan's Work History</h1>
             <h2 style={{ borderBottom: "4px solid #2cd0f5", width: "80px", margin: "auto auto", marginTop: "3%", textAlign: "center" }}>Skills</h2>
             <div className="container" style={{ marginBottom: "5%" }}>
                 <h6>C Program</h6> <Progress percent={90} status="active" />
