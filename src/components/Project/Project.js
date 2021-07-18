@@ -51,21 +51,24 @@ const Project = () => {
             <div className="row">
                 <div className="card-deck card-box">
                     {
-                        Data.map(project => {
-                            return (
-                                <div className="col-lg-4">
+                        Data.map((project, index) => {
+                            if (index < 6) {
+                                return (
 
-                                    <div className="card ">
-                                        <img src={project.image} style={{ height: "210px" }} class="card-img-top" alt={project.name} />
-                                        <a target='_blank' href={project.Url}>
-                                            <div className="card-body">
-                                                <h5 class="card-title" >{project.name}</h5>
-                                            </div>
-                                        </a>
+                                    <div className="col-lg-4 col-md-4 col-sm-6">
+
+                                        <div className="card ">
+                                            <img src={project.image} style={{ height: "210px" }} class="card-img-top" alt={project.name} />
+                                            <a target='_blank' rel="noopener noreferrer" href={project.Url}>
+                                                <div className="card-body">
+                                                    <h5 class="card-title" >{project.name}</h5>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
-                                </div>
 
-                            )
+                                )
+                            }
 
                         })
 

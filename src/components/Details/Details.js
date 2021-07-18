@@ -30,26 +30,26 @@ const Details = () => {
                                 technologies such as HTML5,CSS,Bootstrap,Javascript,React.js,Ajax,Fetch Api and Proficient understanding of code version control tool Git
                                 and Database system MySQL,Oracle,SQLite.</p>
                             <p>I wish i could be a great software engineer.Once Upon a time i wanted to be a Cricketer.Unfortunately i didn't be a Professional Cricketer.Basically I'm a bowling all-rounder.I have played in many large hall Tournament.And i love to play Cricket.</p>
-                            <a target="_blank" href="https://drive.google.com/file/d/1WvrGrgOV3J5ViFoyFhaRtixxhNR_CsZC/view?fbclid=IwAR0jHJdDghm5q_rVaxX9z4-WCF1FDnXoQwP-zarqUhUogypIStK61YPblHc" ><Button size="large" variant="contained" color="primary">
+                            <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1WvrGrgOV3J5ViFoyFhaRtixxhNR_CsZC/view?fbclid=IwAR0jHJdDghm5q_rVaxX9z4-WCF1FDnXoQwP-zarqUhUogypIStK61YPblHc" ><Button size="large" variant="contained" color="primary">
                                 Download Resume <AssignmentReturnedIcon />
                             </Button></a>
                             <br />
                             <div className="row">
                                 <div className="col pt-4 pb-3">
                                     <div className="circle-footer">
-                                        <a target='_blank' href="https://www.facebook.com/Nahid2194"> <FontAwesomeIcon icon={faFacebookF} /></a>
+                                        <a target='_blank' rel="noopener noreferrer" href="https://www.facebook.com/Nahid2194"> <FontAwesomeIcon icon={faFacebookF} /></a>
 
                                     </div>
                                     <div className="circle-footer">
-                                        <a target='_blank' href="https://www.instagram.com/nahid_jc/"> <FontAwesomeIcon icon={faInstagram} /></a>
+                                        <a target='_blank' rel="noopener noreferrer" href="https://www.instagram.com/nahid_jc/"> <FontAwesomeIcon icon={faInstagram} /></a>
 
                                     </div>
                                     <div className="circle-footer">
-                                        <a target='_blank' href="https://github.com/Nahidjc"> <FontAwesomeIcon icon={faGithub} /></a>
+                                        <a target='_blank' rel="noopener noreferrer" href="https://github.com/Nahidjc"> <FontAwesomeIcon icon={faGithub} /></a>
 
                                     </div>
                                     <div className="circle-footer">
-                                        <a target='_blank' href="https://www.linkedin.com/in/nahidjc/"><FontAwesomeIcon icon={faLinkedin} /></a>
+                                        <a target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/nahidjc/"><FontAwesomeIcon icon={faLinkedin} /></a>
 
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@ const Details = () => {
                         </div>
                         <div className="col-md-4">
                             <div className="extra-animation">
-                                <img src={Hero1} className="img_cover" style={{ border: "3px solid #0caab0", borderRadius: "50%", width: "99%", paddingTop: "2%" }} />
+                                <img src={Hero1} className="img_cover" alt="Nahid Hasan" style={{ border: "3px solid #0caab0", borderRadius: "50%", width: "99%", paddingTop: "2%" }} />
                             </div>
                         </div>
                     </div>
